@@ -1,12 +1,12 @@
 // File: OOP.java
 
-import bank.PrintingDirect;
+import bank.Encapsulation;
 
 public class OOP1 {
 
     public static void main(String[] args) {
-        // Create an instance of PrintingDirect to display predefined account details
-        PrintingDirect obj= new PrintingDirect();
+        // Create an instance of Encapsulation to display predefined account details
+        Encapsulation obj= new Encapsulation();
         obj.displayAccountDetails();
     }
 }

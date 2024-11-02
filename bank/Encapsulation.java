@@ -1,18 +1,20 @@
+// File: bank/Encapsulation.java
 package bank;
 
 public class Encapsulation {
 
-    public static void main(String[] args) {
+    public void displayAccountDetails() {
         Account account1 = new Account();
+        
+        // Predefined values for demonstration
         account1.name = "customer1";
-        account1.email = "g5j9U@example.com";
-
-        // Setting and getting the password via encapsulated methods
         account1.setEmail("g5j9U@example.com");
-        account1.setEmail("g5j9U@examplcom");
-
-        System.out.println("Account email: " + account1.getEmail());
         account1.setPassword("78692");
-        System.out.println("Account password: " + account1.getPassword());
+
+        // Print account details
+        System.out.println("Account Details from Encapsulation:");
+        System.out.println("Name: " + account1.name);
+        System.out.println("Email: " + account1.getEmail());
+        System.out.println("Password: " + account1.getPassword());
     }
 }
