@@ -1,0 +1,14 @@
+# Encapsulation and OOP Concepts in Java
+
+This project demonstrates key Object-Oriented Programming (OOP) concepts in Java, with a focus on **Encapsulation** and **Access Modifiers**. The project includes examples of class inheritance and polymorphism, and it uses encapsulation to manage data within a class.
+
+## Project Structure
+
+The project structure is as follows:
+```plaintext
+EncapsulationProject
+│
+├── OOP.java                  # Main class demonstrating inheritance and polymorphism
+└── bank
+    ├── Account.java          # Class demonstrating encapsulation and access control
+    └── Encapsulation.java    # Test class for Account encapsulation features
