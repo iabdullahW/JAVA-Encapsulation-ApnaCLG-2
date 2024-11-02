@@ -30,7 +30,7 @@ public class OOP {
         Account account1 = new Account();
         account1.name = "customer1"; // Setting name property
         account1.setEmail("customer1@example.com"); // Using getters/setters because this a  protected property
-        account1.setPassword("12345"); // Using getter/setter because its a private property
+        account1.setPassword("12345"); // Using getter/setter because its a private 
 
         // Display account details
         System.out.println("Account Details:");

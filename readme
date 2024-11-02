@@ -9,6 +9,8 @@ The project structure is as follows:
 EncapsulationProject
 │
 ├── OOP.java                  # Main class demonstrating inheritance and polymorphism
+├── OOP1.java                  # Main class demonstrating inheritance and polymorphism taking and printing dorct values from PrintingDirect class
 └── bank
     ├── Account.java          # Class demonstrating encapsulation and access control
     └── Encapsulation.java    # Test class for Account encapsulation features
+    └── Encapsulation.java    # Test class for giving values and methods to OOP1.java
